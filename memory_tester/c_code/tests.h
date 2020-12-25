@@ -1,0 +1,16 @@
+int stuck_address(unsigned long volatile *buffer_a, size_t count);
+int random_value(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int xor_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int sub_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int mul_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int div_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int or_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int and_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int sequential_increment_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int solid_bits_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int checkerboard_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int block_sequential_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int walking_zeroes_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int walking_ones_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int bit_spread_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
+int bit_flip_comparison(unsigned long volatile *buffer_a, unsigned long volatile *buffer_b, size_t count);
